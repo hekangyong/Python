@@ -1,0 +1,28 @@
+import turtle
+first = turtle.Pen()
+first.forward(150)
+first.left(90)
+first.forward(30)
+first.right(90)
+first.forward(20)
+
+second = turtle.Pen()
+second.forward(150)
+second.right(90)
+second.forward(30)
+second.left(90)
+second.forward(20)
+
+third = turtle.Pen()
+third.forward(130)
+third.left(90)
+third.forward(60)
+third.right(90)
+third.forward(60)
+
+forth = turtle.Pen()
+forth.forward(130)
+forth.right(90)
+forth.forward(60)
+forth.left(90)
+forth.forward(60)

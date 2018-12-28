@@ -1,0 +1,57 @@
+import turtle
+
+t = turtle.Pen()
+
+t.forward(50)
+t.left(90)
+t.forward(50)
+t.left(90)
+t.forward(50)
+t.left(90)
+t.forward(50)
+t.left(90)
+
+a = turtle.Pen()
+
+a.up()
+a.right(90)
+a.forward(50)
+a.down()
+a.left(90)
+a.forward(70)
+a.right(90)
+a.forward(50)
+a.right(90)
+a.forward(70)
+a.right(90)
+a.forward(50)
+
+b = turtle.Pen()
+
+b.up()
+b.left(90)
+b.forward(70)
+b.right(90)
+b.down()
+b.forward(60)
+b.left(120)
+b.forward(60)
+b.left(120)
+b.forward(60)
+b.left(120)
+
+c = turtle.Pen()
+
+c.up()
+c.left(90)
+c.left(90)
+c.forward(100)
+c.down()
+c.forward(50)
+for x in range (0,3):
+    c.up()
+    c.forward(50)
+    c.right(90)
+    c.forward(50)
+    c.down()
+    c.forward(50)
